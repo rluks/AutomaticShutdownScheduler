@@ -1,8 +1,9 @@
 # README #
 
-Automatic Shutdown Scheduler
-plans automatic shutdown every day
+Automatic Shutdown Scheduler is a simple program I made to create the recurring shutdown task in Windows for you.
 
-use config file to specify time (hour, minute, second)
-and optionaly to remove the shutdown (key="removeShutdown" value="true")
+Use the config file to specify time of a shutdown (hour, minute, second).
+To remove the shutdown task set the key="removeShutdown" and value="true".
+
+To abort the immediate shutdown open cmd and type "shutdown /a".
 
